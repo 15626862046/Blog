@@ -6,7 +6,7 @@ spring:
     driver-class-name: com.mysql.cj.jdbc.Driver
     #url: jdbc:mysql://localhost:3306/blog?useUnicode=true&useSSL=false&characterEncoding=utf8&serverTimezone=Asia/Shanghai
     username: root
-    password: wwe2014.
+    password: 123456
   jackson:
     date-format: yyyy-MM-dd HH:mm:ss
     time-zone: GMT+8
@@ -21,8 +21,8 @@ mybatis-plus:
 shiro-redis:
   enabled: true
   redis-manager:
-    host: 47.106.204.138:6379
-    password: wwe2014.
+    host: 127.0.0.1:6379
+    password: 123456
 jun:
   jwt:
     secret: f4e2e52034348f86b67cde581c0f9eb5
